@@ -28,6 +28,6 @@ window.addEventListener('DOMContentLoaded', () => {
     pictureSize('.sizes-block');
     accordion('.accordion-heading');
     burger('.burger-menu', '.burger');
-    scrolling('.pageup');
     drop();
+    scrolling('.pageup');
 });
