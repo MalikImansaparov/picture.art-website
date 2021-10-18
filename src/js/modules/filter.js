@@ -21,10 +21,10 @@ const filter = () => {
             mark.style.display = 'none';
             mark.classList.remove('animated', 'fadeIn');
         });
-        // show "did not make such images" text
+
         no.style.display = "none";
         no.classList.remove('animated', 'fadeIn');
-        // filtering depending on the coming marktype images
+
         if (markType) {
             markType.forEach(mark => {
                 mark.style.display = 'block';
@@ -66,12 +66,12 @@ const filter = () => {
 
     menu.addEventListener('click', (e) => {
         let target = e.target;
-        // if click menu blocks
-       if(target || target.tagName == "LI"){
-          items.forEach(btn => btn.classList.remove('active'));
-          target.classList.add('active')
+
+        if (target && target.tagName == "LI") {
+            items.forEach(btn => btn.classList.remove('active'));
+            target.classList.add('active');
         }
-        });
+    });
 };
 
 export default filter;
