@@ -19,7 +19,7 @@ const modals = () => {
                 if (destroy) {
                     item.remove();
                 }
-
+                // at openinng new modal old close
                 windows.forEach(item => {
                     item.style.display = 'none';
                     item.classList.add('animated', 'fadeIn');
@@ -72,7 +72,7 @@ const modals = () => {
             }
         }, time);
     }
-
+    //with an active modal window hide scroll from page
     function calcScroll() {
         let div = document.createElement('div');
 
@@ -87,7 +87,7 @@ const modals = () => {
 
         return scrollWidth;
     }
-
+    //if you have reached the end of the page and have not pressed any modal windows open automatically modal windows
     function openByScroll(selector) {
         window.addEventListener('scroll', () => {
             let scrollHeight = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
