@@ -1,12 +1,12 @@
 {
-  "name": "picture",
+  "name": "picture.art-website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "malik",
   "license": "ISC",
   "browserslist": [
     "> 1%",

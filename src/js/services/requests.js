@@ -1,3 +1,4 @@
+// send data to the server
 const postData = async (url, data) => {
     let res = await fetch(url, {
         method: "POST",
@@ -6,7 +7,7 @@ const postData = async (url, data) => {
 
     return await res.text();
 };
-
+// recieve data from the server
 const getResource = async (url) => {
     let res = await fetch(url);
 

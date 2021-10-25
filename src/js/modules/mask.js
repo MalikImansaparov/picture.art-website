@@ -2,7 +2,7 @@ const mask = (selector) => {
 
     let setCursorPosition = (pos, elem) => {
         elem.focus();
-        
+        //test of existence setSelectionRange
         if (elem.setSelectionRange) {
             elem.setSelectionRange(pos, pos);
         } else if (elem.createTextRange) {
@@ -20,7 +20,7 @@ const mask = (selector) => {
             i = 0,
             def = matrix.replace(/\D/g, ''),
             val = this.value.replace(/\D/g, '');
-
+            //Do not allow users to remove +7
         if (def.length >= val.length) {
             val = def;
         }

@@ -9,7 +9,7 @@ const calc = (size, material, options, promocode, result) => {
 
     const calcFunc = () => {
         sum = Math.round((+sizeBlock.value) * (+materialBlock.value) + (+optionsBlock.value));
-
+        // if user did not fill completelly form
         if (sizeBlock.value == '' || materialBlock.value == '') {
             resultBlock.textContent = "Пожалуйста, выберите размер и материал картины";
         } else if (promocodeBlock.value === 'IWANTPOPART') {
