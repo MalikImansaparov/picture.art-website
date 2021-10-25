@@ -1469,6 +1469,9 @@ h4 {
     background-position-x: 0;
     background-size: auto;
   }
+  .gift-features {
+   text-align: center;
+  }
   .gift-features h4 {
     margin-left: 4rem;
     margin-bottom: 4rem;
@@ -1647,6 +1650,9 @@ h4 {
   .main .button-order-img {
     right: -4rem;
   }
+.often-questions {
+  margin-top: 150px;
+}
   .promo {
     padding: 5rem 0;
   }
