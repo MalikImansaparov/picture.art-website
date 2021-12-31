@@ -2,7 +2,7 @@
 
 https://user-images.githubusercontent.com/50579392/145854173-06a33d4e-6dc8-45dc-ab02-9b6f92c53e1b.mp4
 
-Link: [picture.art-studio.ru](https://picture-art-studio.netlify.app/)
+Demo: [picture.art-studio.ru](https://picture-art-studio.netlify.app/)
 
 ### Built With
 - HTML5
